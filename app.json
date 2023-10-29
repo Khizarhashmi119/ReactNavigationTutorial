@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-navigation-tutorial",
-    "slug": "react-navigation-tutorial",
+    "name": "ReactNavigationTutorial",
+    "slug": "ReactNavigationTutorial",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
