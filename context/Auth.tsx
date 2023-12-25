@@ -52,16 +52,12 @@ export const AuthProvider = (props: Props): JSX.Element => {
   }, []);
 
   const login = (email: string, password: string) => {
-    const user = {
-      username: email,
-    };
-
     setAuthState((prevState) => ({
       ...prevState,
-      ...user,
+      username: email,
     }));
 
-    AsyncStorage.setItem("user", JSON.stringify(user));
+    AsyncStorage.setItem("user", email);
   };
 
   const logout = () => {
